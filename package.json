@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "react-svg-sprite-generator": "^1.0.17"
+    "react-svg-sprite-generator": "^1.0.25"
   }
 }

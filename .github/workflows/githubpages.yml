@@ -37,8 +37,8 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Generate Sprite and Docs
-      run: svgsprite
+    - run: bash ./run svgsprite
+      shell: bash
 
     - name: Bump package version
       run: |

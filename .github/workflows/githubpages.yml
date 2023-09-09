@@ -29,16 +29,16 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '16.x'
+#    - name: Setup Node.js
+#      uses: actions/setup-node@v1
+#      with:
+#        node-version: '16.x'
+#
+#    - name: Install Dependencies
+#      run: npm install
 
-    - name: Install Dependencies
-      run: npm install
-
-    - run: bash ./run svgsprite
-      shell: bash
+    - name: Generate Sprite and Docs
+      run: npx react-svg-sprite-generator --src assets/icons --dest sprite --docs docs/index.html
 
     - name: Bump package version
       run: |

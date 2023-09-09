@@ -38,7 +38,7 @@ jobs:
 #      run: npm install
 
     - name: Generate Sprite and Docs
-      run: npx react-svg-sprite-generator --src assets/icons --dest sprite --docs docs/index.html
+      run: npx react-svg-sprite-generator --src src/assets/icons --dest src/components/Icon --docs docs/index.html
 
     - name: Bump package version
       run: |

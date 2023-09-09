@@ -45,8 +45,10 @@ jobs:
         git config --global user.name 'runner'
         git config --global user.email 'runner@users.noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/simprl/svg-icons-sprite-example.git
+        npm version patch --no-git-tag-version
+        NEW_VERSION=$(node -p "require('./package.json').version")
         git add *
-        npm version patch -m "version %s"
+        git commit -m "version $NEW_VERSION"
         git push
 
   # Single deploy job since we're just deploying

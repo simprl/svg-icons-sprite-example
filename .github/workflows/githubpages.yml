@@ -45,6 +45,7 @@ jobs:
         git config --global user.name 'runner'
         git config --global user.email 'runner@users.noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/simprl/svg-icons-sprite-example.git
+        git add *
         npm version patch -m "version %s"
         git push
 

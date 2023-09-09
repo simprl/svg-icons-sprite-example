@@ -35,10 +35,10 @@ jobs:
         node-version: '16.x'
 
     - name: Install Dependencies
-      run: npm ci
+      run: npm install
 
     - name: Generate Sprite and Docs
-      run: svgsprite --src assets/icons --dest sprite --docs docs/index.html
+      run: svgsprite
 
     - name: Bump package version
       run: |
@@ -47,6 +47,7 @@ jobs:
 
   # Single deploy job since we're just deploying
   deploy:
+    needs: build 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

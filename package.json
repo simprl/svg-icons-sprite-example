@@ -1,14 +1,15 @@
 {
-  "name": "my-react-icons_example",
+  "name": "svg-icons-sprite-example",
   "version": "1.0.7",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "names.js",
+  "files": [
+    "names.js",
+    "sprite.svg"
+  ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "react-svg-sprite-generator": "^1.0.25"

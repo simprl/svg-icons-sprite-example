@@ -40,7 +40,7 @@ jobs:
 #      run: npm ci
 
     - name: Generate Sprite and Docs
-      run: npx react-svg-sprite-generator --src src/assets/icons --dest ./ --docs docs/index.html --names-filename index.ts
+      run: npx react-svg-sprite-generator --src src/assets/icons --dest ./ --doc docs/index.html --names-filename index.ts
 
     - name: Bump package version
       run: |

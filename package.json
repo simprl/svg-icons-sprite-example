@@ -1,17 +1,21 @@
 {
   "name": "svg-icons-sprite-example",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "",
-  "main": "names.js",
+  "main": "index.js",
   "files": [
-    "names.js",
+    "index.js",
+    "index.d.ts",
     "sprite.svg"
   ],
+  "types": "index.d.ts",
+  "scripts": {
+    "tsc": "tsc"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "react-svg-sprite-generator": "^1.0.25"
+  "dependencies": {
+    "typescript": "^5.2.2"
   }
 }

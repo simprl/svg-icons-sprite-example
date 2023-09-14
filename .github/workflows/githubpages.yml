@@ -1,5 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Generate Svg Sprite Icons and Docs
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,8 +38,8 @@ jobs:
 #    - name: Install Dependencies
 #      run: npm ci
 
-    - name: Generate Sprite and Docs
-      run: npx react-svg-sprite-generator --src src/assets/icons --dest ./ --doc docs/index.html --names-filename index.ts
+    - name: Generate Svg Sprite Icons and Docs
+      run: npx react-svg-sprite-generator --src src/assets/icons --dest ./ --doc docs/index.html --names-filename index.ts --prepend-readme readme.template.md
 
     - name: Bump package version
       run: |

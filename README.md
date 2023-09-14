@@ -76,6 +76,5 @@ In essence, to adjust the primary content of the **README.md**, modify the **rea
 |---|---|---|
 |  ![](/src/assets/icons/arrows/bottom.svg) | ARROWS_BOTTOM | arrows/bottom.svg |
 |  ![](/src/assets/icons/arrows/left.svg) | ARROWS_LEFT | arrows/left.svg |
-|  ![](/src/assets/icons/arrows/plus.svg) | ARROWS_PLUS | arrows/plus.svg |
 |  ![](/src/assets/icons/arrows/right.svg) | ARROWS_RIGHT | arrows/right.svg |
 |  ![](/src/assets/icons/arrows/top.svg) | ARROWS_TOP | arrows/top.svg |

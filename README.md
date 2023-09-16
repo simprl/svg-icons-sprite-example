@@ -3,9 +3,8 @@
 Welcome to the SVG Icons Sprite Generator and Publisher template! This template is designed to generate SVG sprite icons using the [react-svg-sprite-generator](https://www.npmjs.com/package/react-svg-sprite-generator) library and then publish them as an npm module.
 
 ## Generated documentation: [Your GitHub pages link](https://simprl.github.io/svg-icons-sprite-example/)
-## Published npm module: [svg-icons-sprite-example](https://simprl.github.io/svg-icons-sprite-example/)
+## Published npm module: [svg-icons-sprite-example](https://www.npmjs.com/package/svg-icons-sprite-example)
 [![](https://img.shields.io/npm/v/svg-icons-sprite-example?style=flat)](https://www.npmjs.com/package/svg-icons-sprite-example)
-
 
 ## Features
 - Automatic generation of SVG sprite icons.
